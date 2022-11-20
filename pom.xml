@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.232.173.226:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.34.130:9000</sonar.host.url>
 		<sonar.login>squ_615bd32019379e4e8032d8b79d5ef2fcf27f74f0</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -72,7 +72,7 @@
   		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
+			<artifactId>spring-webmvc</artifactId>172.31.47.142
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
@@ -97,7 +97,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>citibank release</name>
-	      <url>http://13.127.187.174:8081/repository/Citibank-release/</url>
+	      <url>http://172.31.47.142:8081/repository/Citibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
